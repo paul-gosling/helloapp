@@ -6,6 +6,13 @@ namespace Hello
     {
         public static void Main()
         {
+            GreetEveryone();
+            GreetWhite();
+            GreetBlack();
+        }
+
+        public static void GreetEveryone()
+        {
             Console.WriteLine("hello everyone");
         }
 
